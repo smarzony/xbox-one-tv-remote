@@ -19,8 +19,8 @@ IRsend irsend;
 
 // the Button
 
-ClickButton ButtonLeft(BUTTON_LEFT_PIN, LOW, CLICKBTN_PULLUP);
-ClickButton ButtonRight(BUTTON_RIGHT_PIN, LOW, CLICKBTN_PULLUP);
+ClickButton ButtonLeft(BUTTON_LEFT_PIN, LOW);
+ClickButton ButtonRight(BUTTON_RIGHT_PIN, LOW);
 
 int last_button_state_left;
 bool last_pressed_state_left;
